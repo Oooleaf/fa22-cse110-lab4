@@ -1,4 +1,4 @@
-var declaration
+[var declaration]
 
   1.What is printed by line 9? If the code returns an error, explain why. ^^^^^
 
