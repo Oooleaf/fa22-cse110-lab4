@@ -2,9 +2,9 @@
 
   1. What is printed by line 9? If the code returns an error, explain why. ^^^^^
   
-    -values added:  20
+    - values added:  20
     
-    -because num1 = 10, num2 = 10, we are at add if condition, result = num1 + num2 = 10 + 10 = 20, then print result get 20.
+    - because num1 = 10, num2 = 10, we are at add if condition, result = num1 + num2 = 10 + 10 = 20, then print result get 20.
 
   2. What is printed by line 13? If the code returns an error, explain why. 
   
