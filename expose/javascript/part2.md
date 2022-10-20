@@ -23,5 +23,26 @@
 12. A. student.name
     B. student['Grad Year']
     C. student.greating()
-    D.student['Favorite Teacher'].name
+    D. student['Favorite Teacher'].name
     E. student.courseLoad[0]
+
+13. A.'3'+2 = 32
+    B.'3'-2 = 1
+    C. 3 + null = 3
+    D.'3'+ null = 3
+    E. true + 3 = 4
+    F. false + null = 0
+    G. '3' + undefined = 3undefined
+    H. '3' - undefined = NaN
+
+14. yesabcdef
+    
+15.  yes gogogo
+    
+16.  see code
+    
+17.  yes gogogo
+
+18. see code 
+    
+19. yes gogogo
