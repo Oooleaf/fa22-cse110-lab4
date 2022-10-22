@@ -21,7 +21,8 @@
 11. The function will return [50, 100, 150], which is the value of discounted. variable of discounted is const, values cannot reassigned to discounted. The discounted array didn't change, and the elements in the array can be updated.
     
 
-12. - A. student.name
+12. 
+    - A. student.name
     - B. student['Grad Year']
     - C. student.greating()
     - D. student['Favorite Teacher'].name
@@ -39,7 +40,8 @@
     - H. '3' - undefined = NaN    '3' is a string, we do subtraction, also we know undefined converted to NaN, this is a numeric convertion.
 
 
-14. - A.‘2’ > 1               true    '2' has been converted to number 2
+14. 
+    - A.‘2’ > 1               true    '2' has been converted to number 2
     - B.‘2’ < ‘12’            false   '2' and '12' are both strings, in string comparies, they are compared letter-by-letter, we know first char 2 < 1 is false.
     - C.2 == ‘2’              true    2 is a number, and '2' has been converted to number 2.
     - D.2 === ‘2’             false   === means a strict equality operator, and it checks the equality without type conversion. We know they types of 2 and '2' are different because 2 is a number and '2' is a string.
