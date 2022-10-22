@@ -26,23 +26,29 @@
     D. student['Favorite Teacher'].name
     E. student.courseLoad[0]
 
-13. A.'3'+2 = 32
-    B.'3'-2 = 1
-    C. 3 + null = 3
-    D.'3'+ null = 3
-    E. true + 3 = 4
-    F. false + null = 0
-    G. '3' + undefined = 3undefined
-    H. '3' - undefined = NaN
+13. 
+    A.'3'+ 2 = 32   because '3' is a string, 2 will automatically convert to a string.  this is a string conversion.
+    B.'3'- 2 = 1    '3' is a string, when do subtraction, because 2 is a number, this is a numeric conversion.
+    C. 3 + null = 3     when do the addition, null has been converted to 0.
+    D.'3'+ null = 3null      because '3' is a string, and null converted to string.
+    E. true + 3 = 4     when do the addition, true has been converted to number 1
+    F. false + null = 0 because false and null both have been converted to 0, add them and get 0
+    G. '3' + undefined = 3undefined     '3' is a string, undefined will also be converted to a string, this is a string conversion.
+    H. '3' - undefined = NaN    '3' is a string, we do subtraction, also we know undefined converted to NaN, this is a numeric convertion.
 
-14. yesabcdef
+14. A.‘2’ > 1               true    '2' has been converted to number 2
+    B.‘2’ < ‘12’            false   '2' and '12' are both strings, in string comparies, they are compared letter-by-letter, we know first char 2 < 1 is false.
+    C.2 == ‘2’              true    2 is a number, and '2' has been converted to number 2.
+    D.2 === ‘2’             false   === means a strict equality operator, and it checks the equality without type conversion. We know they types of 2 and '2' are different because 2 is a number and '2' is a string.
+    E.true == 2             false   true has been converted to 1, we know 1 and 2 are not equal.
+    F.true === Boolean(2)   true    because the first part true is a boolean result, the second part Boolean(2) is true and this is also a boolean result. We know === is strict equality and this checks the data types, and here we have same data types for both part.
     
-15.  yes gogogo
+15.  == means the equality test, and it can check the euqality with type conversions. === means the strict euality check, and this can check the equality without type conversions.
     
 16.  see code
     
-17.  yes gogogo
+17.  [2, 4, 6]
 
 18. see code 
     
-19. yes gogogo
+19. 1 4 3 2
