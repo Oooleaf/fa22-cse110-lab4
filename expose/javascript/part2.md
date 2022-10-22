@@ -44,7 +44,6 @@
     - F.true === Boolean(2)   true    because the first part true is a boolean result, the second part Boolean(2) is true and this is also a boolean result. We know === is strict equality and this checks the data types, and here we have same data types for both part.
     
 15.  
-    > 
     - == means the equality test, and it can check the euqality with type conversions.
     - === means the strict euality check, and this can check the equality without type conversions.
     
