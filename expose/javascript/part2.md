@@ -20,11 +20,11 @@
     
 11. The function will return [50, 100, 150], which is the value of discounted. variable of discounted is const, values cannot reassigned to discounted. The discounted array didn't change, and the elements in the array can be updated.
     
-12. A. student.name
-    B. student['Grad Year']
-    C. student.greating()
-    D. student['Favorite Teacher'].name
-    E. student.courseLoad[0]
+12. - A. student.name
+    - B. student['Grad Year']
+    - C. student.greating()
+    - D. student['Favorite Teacher'].name
+    - E. student.courseLoad[0]
 
 13. 
     A.'3'+ 2 = 32   because '3' is a string, 2 will automatically convert to a string.  this is a string conversion.
