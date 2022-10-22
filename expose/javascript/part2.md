@@ -51,10 +51,17 @@
     - == means the equality test, and it can check the euqality with type conversions.
     - === means the strict euality check, and this can check the equality without type conversions.
     
-16.  see code
+16.  
+    [see code in part2-question16.js](https://github.com/Oooleaf/fa22-cse110-lab4/blob/main/expose/javascript/part2-question16.js)
     
-17.  [2, 4, 6]
+17.  
+    - [2, 4, 6]
+    - Because we have input array [1,2,3], the array length of input is 3. We take the input array into function modifyArray for loop, loop 3 times and push it to callback. We also have the function doSomething which will double the input value. Then we call the function with modifyArray([1,2,3], doSomething), then we will double the input value, iterate 3 times and push new value to the newArr.
 
-18. see code 
+18. 
+    [see code in part2-question18.js](https://github.com/Oooleaf/fa22-cse110-lab4/blob/main/expose/javascript/part2-question18.js)
     
-19. 1 4 3 2
+19. > 1 
+    > 4 
+    > 3 
+    > 2
