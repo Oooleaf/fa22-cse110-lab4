@@ -20,11 +20,13 @@
     
 11. The function will return [50, 100, 150], which is the value of discounted. variable of discounted is const, values cannot reassigned to discounted. The discounted array didn't change, and the elements in the array can be updated.
     
+
 12. - A. student.name
     - B. student['Grad Year']
     - C. student.greating()
     - D. student['Favorite Teacher'].name
     - E. student.courseLoad[0]
+
 
 13. 
     - A.'3'+ 2 = 32   because '3' is a string, 2 will automatically convert to a string.  this is a string conversion.
@@ -36,6 +38,7 @@
     - G. '3' + undefined = 3undefined     '3' is a string, undefined will also be converted to a string, this is a string conversion.
     - H. '3' - undefined = NaN    '3' is a string, we do subtraction, also we know undefined converted to NaN, this is a numeric convertion.
 
+
 14. - A.‘2’ > 1               true    '2' has been converted to number 2
     - B.‘2’ < ‘12’            false   '2' and '12' are both strings, in string comparies, they are compared letter-by-letter, we know first char 2 < 1 is false.
     - C.2 == ‘2’              true    2 is a number, and '2' has been converted to number 2.
@@ -43,6 +46,7 @@
     - E.true == 2             false   true has been converted to 1, we know 1 and 2 are not equal.
     - F.true === Boolean(2)   true    because the first part true is a boolean result, the second part Boolean(2) is true and this is also a boolean result. We know === is strict equality and this checks the data types, and here we have same data types for both part.
     
+
 15.  
     - == means the equality test, and it can check the euqality with type conversions.
     - === means the strict euality check, and this can check the equality without type conversions.
