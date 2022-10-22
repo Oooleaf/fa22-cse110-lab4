@@ -27,14 +27,14 @@
     - E. student.courseLoad[0]
 
 13. 
-    > A.'3'+ 2 = 32   because '3' is a string, 2 will automatically convert to a string.  this is a string conversion.
-    > B.'3'- 2 = 1    '3' is a string, when do subtraction, because 2 is a number, this is a numeric conversion.
-    > C. 3 + null = 3     when do the addition, null has been converted to 0.
-    > D.'3'+ null = 3null      because '3' is a string, and null converted to string.
-    > E. true + 3 = 4     when do the addition, true has been converted to number 1
-    > F. false + null = 0 because false and null both have been converted to 0, add them and get 0
-    > G. '3' + undefined = 3undefined     '3' is a string, undefined will also be converted to a string, this is a string conversion.
-    > H. '3' - undefined = NaN    '3' is a string, we do subtraction, also we know undefined converted to NaN, this is a numeric convertion.
+    > - A.'3'+ 2 = 32   because '3' is a string, 2 will automatically convert to a string.  this is a string conversion.
+    > - B.'3'- 2 = 1    '3' is a string, when do subtraction, because 2 is a number, this is a numeric conversion.
+    > - C. 3 + null = 3     when do the addition, null has been converted to 0.
+    > - D.'3'+ null = 3null      because '3' is a string, and null converted to string.
+    > - E. true + 3 = 4     when do the addition, true has been converted to number 1
+    > - F. false + null = 0 because false and null both have been converted to 0, add them and get 0
+    > - G. '3' + undefined = 3undefined     '3' is a string, undefined will also be converted to a string, this is a string conversion.
+    > - H. '3' - undefined = NaN    '3' is a string, we do subtraction, also we know undefined converted to NaN, this is a numeric convertion.
 
 14. A.‘2’ > 1               true    '2' has been converted to number 2
     B.‘2’ < ‘12’            false   '2' and '12' are both strings, in string comparies, they are compared letter-by-letter, we know first char 2 < 1 is false.
