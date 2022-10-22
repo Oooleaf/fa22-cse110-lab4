@@ -61,7 +61,7 @@
 18. 
     [see code in part2-question18.js](https://github.com/Oooleaf/fa22-cse110-lab4/blob/main/expose/javascript/part2-question18.js)
     
-19. > 1 
-    > 4 
-    > 3 
-    > 2
+19. `1 
+     4 
+     3 
+     2`
